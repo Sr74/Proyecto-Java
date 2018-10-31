@@ -34,6 +34,7 @@ public class FrameOpciones extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel1.setText("BreadBak");
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Interfaces/imagenes/icons8-comportamiento-de-las-ventas-96.png"))); // NOI18N
@@ -69,7 +70,7 @@ public class FrameOpciones extends javax.swing.JFrame {
                     .addComponent(jLabel3)
                     .addComponent(jLabel4)
                     .addComponent(jLabel2))
-                .addContainerGap(316, Short.MAX_VALUE))
+                .addContainerGap(308, Short.MAX_VALUE))
         );
 
         pack();
