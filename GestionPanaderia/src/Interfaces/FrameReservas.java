@@ -17,6 +17,10 @@ public class FrameReservas extends javax.swing.JFrame {
      * Creates new form FrameReservas
      */
     DefaultTableModel model=new DefaultTableModel();
+
+    /**
+     *
+     */
     public FrameReservas() {
         initComponents();
         this.setLocationRelativeTo(null);
